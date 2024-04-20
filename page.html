@@ -8,6 +8,25 @@
     <link rel="stylesheet" href="page.css">
 </head>
 <body>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0; 
+}
+    </script>
     <header>
         <div class="nav">
             <div class="logo border">
@@ -29,7 +48,130 @@
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
+            <div class="lang border">
+                <i class="fa-solid fa-flag"></i>
+                <select class="list"><option>En</option></select>
+            </div>
+            <div class="sign border" >
+                <a href="login.html"><p><span>Hello, Sign in</span></p></a>
+                <p class="down">Account and List</p>
+            </div>
+            <div class="orders border">
+                <p><span>Returns &</span></p>
+                <p class="down">Orders</p>
+            </div>
+            <div class="cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="all">
+                <i class="fa-solid fa-bars"></i>
+                ALL
+            </div>
+            <div class="opts">
+                <a href="#" class="popt" >Deals Today</a>
+                <a href="#" class="popt">Customer Service</a>
+                <a href="#"class="popt">Registery</a>
+                <a href="#"class="popt">Gift Card</a>
+            </div>
         </div>
     </header>
+    <div class="part"></div>
+    <div class="content">
+        <div class="box1 box"><h3>Pendants</h3>
+            <div class="boximg" style="background-image: url('p1.jpg');"></div>
+            <a href="Pen.html">See More</a>
+        </div>
+        <div class="box2 box"><h3>Necklaces</h3>
+            <div class="boximg" style="background-image: url('n1.jpg');"></div>
+            <a href="#">See More</a>
+        </div>
+        <div class="box3 box"><h3>Gold</h3>
+            <div class="boximg" style="background-image: url('g1.jpg');"></div>
+            <a href="#">See More</a>
+        </div>
+        <div class="box4 box"><h3>Earrings</h3>
+            <div class="boximg" style="background-image: url('e1.jpg');"></div>
+            <a href="#">See More</a>
+        </div>
+    </div>
+   
+        <div class="content2">
+            <div class="box1 box"><h3>Rings</h3>
+                <div class="boximg" style="background-image: url('r1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box2 box"><h3>Nose Rings</h3>
+                <div class="boximg" style="background-image: url('nr1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box3 box"><h3>Bangles</h3>
+                <div class="boximg" style="background-image: url('b1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box4 box"><h3>Bracelet</h3>
+                <div class="boximg" style="background-image: url('br1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+        </div>
+        <div class="content2">
+            <div class="box1 box"><h3>Anklets</h3>
+                <div class="boximg" style="background-image: url('a1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box2 box"><h3>MangTika</h3>
+                <div class="boximg" style="background-image: url('mg1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box3 box"><h3>Tiara</h3>
+                <div class="boximg" style="background-image: url('t1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+            <div class="box4 box"><h3>Waist Chain</h3>
+                <div class="boximg" style="background-image: url('w1.jpg');"></div>
+                <a href="#">See More</a>
+            </div>
+        </div>
+        <footer>
+            <div class="back">
+                <button onclick="topFunction()" id="myBtn" title="Go to top">BACK TO TOP</button>
+            </div>
+            <div class="pan">
+                <ul>
+                    <p>Get to know us:</p>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>About </li>
+                </ul>
+                <ul>
+                    <p>Get to know us:</p>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>About </li>
+                </ul>
+                <ul>
+                    <p>Get to know us:</p>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>About </li>
+                </ul>
+                <ul>
+                    <p>Get to know us:</p>
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>About </li>
+                </ul>
+            </div>
+            <div class="end">
+                <div class="log">
+
+                </div>
+            </div>
+            <div class="foot">
+                <p class="text">Copyright &copy 2023 All RIght Reserved By :<i> VENUS &reg;</i></p>
+            </div>
+        </footer>
 </body>
 </html>

@@ -1,8 +1,9 @@
 *
 {
     margin: 0;
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
     border: border-box;
+    
 }
 
 .nav
@@ -88,3 +89,136 @@
 .sicon{
     margin-left: 9px;
 }
+span{
+    font-size: 0.7rem;
+    text-decoration: none;
+}
+
+.down{
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.search:hover{
+    border: 2px solid cadetblue;
+}
+
+.list{
+    height: 45px;
+    width: 50px;
+    text-align: center;
+    color: azure;
+    background-color: midnightblue;
+    border: none;
+}
+.opts{
+    font-size: 0.9rem;
+    margin: 7px;
+}
+.panel{
+    display: flex;
+    background-color: lightblue;
+}
+.all
+{
+    margin: 7px;
+}
+.popt{
+    margin-left: 5px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+.part{
+    background-image: url("q1.jpg");
+    background-size: cover;
+    height: 442px;
+    
+}
+.box{
+    border: 2px solid cadetblue;
+    height: 350px;
+    width: 24%;
+    background-color: aliceblue;
+}
+.content{
+    display: flex;
+    border: 3px solid transparent;
+    justify-content: space-evenly;
+    background-color: mintcream;
+}
+.boximg{
+    height: 310px;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin-left: 30px;
+}
+.content2{
+    border : 5px solid transparent;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: mintcream;
+}
+.con{
+    background-color: lightblue;
+}
+.back{
+    background-color: steelblue;
+    color: seashell;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem ;
+}
+footer{
+    margin-top: 12px;
+}
+.pan{
+    background-color: midnightblue;
+    color: white;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+ul{
+    margin-top: 20px;
+}
+
+ul li{
+    display: block;
+    font-size: 1.2rem;
+}
+.end
+{
+    background-color: midnightblue;
+    color: white;
+    border-top: 1px solid white;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.log{
+    background-image: url("l1.png");
+    height : 100px;
+    background-repeat: no-repeat;
+    border : 20px solid transparent;
+    
+}
+.text{
+    background-color: midnightblue;
+    color: whitesmoke;
+    text-align: center;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .back button{
+    background-color: steelblue;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+  }
