@@ -96,9 +96,9 @@
                         <br>
                         <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><br>
                         <h2><i class="fa-solid fa-indian-rupee-sign"></i> 700</h2>
-                        <center><button class="bt" id="bt">BUY</button></center>
-                        <div class="an" id = "an">
-                            <div class="inan">
+                        <center><button class="bt" id="but">BUY</button></center>
+                        <div class="ian" id = "an">
+                            <div class="inside">
                                 <div class="xmark"><i class="fa-solid fa-xmark" id = "cls"></i></div>
                                 <p>YOUR ORDER HAS BEEN PLACED</p>
                             </div>
@@ -202,6 +202,8 @@
         const se = document.getElementById("se")
         const pp = document.getElementById("pp")
         const cr = document.getElementById("cr")
+        const but = document.getElementById("but")
+        const ian = document.getElementById("ian")
     
        buy.addEventListener("click",()=>{
         pop.classList.add("open")
@@ -220,6 +222,9 @@
        });
        cr.addEventListener("click",()=>{
         pp.classList.remove("open")
+       });
+       but.addEventListener("click",()=>{
+        ian.classList.remove("open")
        });
     </script>
 </body>
