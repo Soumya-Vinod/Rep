@@ -62,11 +62,51 @@
     <div class="content">
         <div class="box1 box"><h3>Pendant Rittz</h3>
             <div class="boximg" style="background-image: url('p1.jpg');"></div>
-            <i class="fa-solid fa-indian-rupee-sign"></i> 199
+            <center><button id = "buy">BUY</button></center>
+            <div class="firstscreen" id = "pop">
+                <div class="inside">
+                    <p>
+                        <div class="xmark"><i class="fa-solid fa-xmark" id = "close"></i></div>
+                        <img src="p1.jpg" alt="pendant" class="pimg">
+                        <br>14 silver plated pendant with pearls <br>and a butterfly charm with shiny<br>coating
+                        <br>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><br>
+                        <h2><i class="fa-solid fa-indian-rupee-sign"></i> 700</h2>
+                        <center><button class="bt" id="bt">BUY</button></center>
+                        <div class="an" id = "an">
+                            <div class="inan">
+                                <div class="xmark"><i class="fa-solid fa-xmark" id = "cls"></i></div>
+                                <p>YOUR ORDER HAS BEEN PLACED</p>
+                            </div>
+                        </div>
+                    </p>
+                    <p>_</p>
+                </div>
+            </div>
         </div>
         <div class="box2 box"><h3>Pendant Ven</h3>
             <div class="boximg" style="background-image: url('p2.jpg');"></div>
-            <i class="fa-solid fa-indian-rupee-sign"></i> 700
+            <center><button id = "se">BUY</button></center>
+            <div class="firstscreen" id = "pp">
+                <div class="inside">
+                    <p>
+                        <div class="xmark"><i class="fa-solid fa-xmark" id = "cr"></i></div>
+                        <img src="p2.jpg" alt="pendant" class="pimg">
+                        <br>14 silver plated pendant with pearls <br>and a butterfly charm with shiny<br>coating
+                        <br>
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i><i class="fa-regular fa-star"></i><br>
+                        <h2><i class="fa-solid fa-indian-rupee-sign"></i> 700</h2>
+                        <center><button class="bt" id="bt">BUY</button></center>
+                        <div class="an" id = "an">
+                            <div class="inan">
+                                <div class="xmark"><i class="fa-solid fa-xmark" id = "cls"></i></div>
+                                <p>YOUR ORDER HAS BEEN PLACED</p>
+                            </div>
+                        </div>
+                    </p>
+                    <p>_</p>
+                </div>
+            </div>
         </div>
         <div class="box3 box"><h3>Pendant golz</h3>
             <div class="boximg" style="background-image: url('peice3.jpg');"></div>
@@ -152,5 +192,35 @@
             <p class="text">Copyright &copy 2023 All RIght Reserved By :<i> VENUS &reg;</i></p>
         </div>
     </footer>
+    <script>
+        const buy = document.getElementById("buy")
+        const pop = document.getElementById("pop")
+        const close = document.getElementById("close")
+        const an = document.getElementById("an")
+        const bt = document.getElementById("bt")
+        const cls = document.getElementById("cls")
+        const se = document.getElementById("se")
+        const pp = document.getElementById("pp")
+        const cr = document.getElementById("cr")
+    
+       buy.addEventListener("click",()=>{
+        pop.classList.add("open")
+       });
+       close.addEventListener("click",()=>{
+        pop.classList.remove("open")
+       });
+       bt.addEventListener("click",()=>{
+        an.classList.add("open")
+       });
+       cls.addEventListener("click",()=>{
+        an.classList.remove("open")
+       });
+       se.addEventListener("click",()=>{
+        pp.classList.add("open")
+       });
+       cr.addEventListener("click",()=>{
+        pp.classList.remove("open")
+       });
+    </script>
 </body>
 </html>
